@@ -1,5 +1,4 @@
 import "./App.css";
-import HomePage from "./pages/HomePage";
 import Testimonials from "./pages/Testimonials"
 import {
   BrowserRouter as Router,
@@ -12,8 +11,8 @@ function App() {
     <div className="App">
       
       <Routes>
-         <Route path="/" element={<HomePage/>} /> 
-        <Route path="/testimonials" element={<Testimonials/>} />
+         {/* <Route path="/" element={<HomePage/>} />  */}
+        <Route path="/" element={<Testimonials/>} />
 
 
       </Routes>
